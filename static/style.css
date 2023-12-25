@@ -44,6 +44,7 @@ code{
     font-size: 105%;
     padding: 2px;
     border-radius: 5px;
+    font-style: italic;
    
 
 
@@ -51,11 +52,13 @@ code{
 
 .text-objeto{
     color: aqua;
+    font-style: normal;
 
 }
 
 .text-metodo{
     color: yellow;
+    font-style: normal;
 }
 .bloco-titulo{
     width: 100%;
