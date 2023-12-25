@@ -4,6 +4,21 @@ body{
     
 }
 
+.grid{
+display:grid ;
+grid-template-columns: "left" "right";
+grid-template-areas: 1fr 1fr ;
+}
+
+.grid-left{
+    grid-area: "left";
+    
+}
+
+.grid-right{
+    grid-area: "right";
+}
+
 
 .bloco-code{
     display: flex;
