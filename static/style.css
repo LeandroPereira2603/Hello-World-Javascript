@@ -24,7 +24,7 @@ background-color: black;
 .grid-right{
     display: grid;
     grid-area: right;
-    background-color: rgb(74, 129, 2);
+    background-color: beige;
     width: 100%;
     height: 600px;
 }
@@ -65,7 +65,7 @@ code{
     height: 50px;
 }
 .container{
-    background-color: rgb(6, 104, 6);
+    background-color: #cfcf00;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -76,7 +76,7 @@ h1{
    font-style: bold;
    text-align:center;
    color:rgb(255, 255, 255);
-   animation: text 5s linear;
+   animation: text 3s linear;
    border-radius: 5px;
 }
 .container-imagem{
@@ -90,7 +90,7 @@ h1{
     position:relative;
     bottom:100px;
     height: 300px;
-    animation:move 4s linear;
+
 }
 
 
@@ -105,7 +105,7 @@ h1{
         width: 65%;
         height: auto;
         color:white;
-        background-color: black;
+        background-color: rgb(202, 202, 42);
     }
     50%{
         width: 50%;
@@ -117,51 +117,35 @@ h1{
     75%{
         width: 45%;
         height: auto;
-        color:green;
-        background-color: rgb(74, 129, 2);
-        padding: 30px;
+        color:white;
+        background-color: yellow;
+       
     }
+
+    85%{
+        width: 45%;
+        height: auto;
+        color:white;
+        background-color: rgb(196, 196, 0);
+       
+    }
+     
+    95%{
+        width: 45%;
+        height: auto;
+        color:white;
+        background-color: rgb(255, 255, 255);
+       
+    }
+
     100%{
         width: 40%;
         height: auto;
         color: greenyellow;
-        background-color: black;
+        background-color:  rgb(196, 196, 0);
         padding: -30px;
     }
 }
-@keyframes move {
-    0%{
-        display:block ;
-        position:relative;
-        left: -300px;
-        width: 300px;
-        height: 300px;
-      
-    }
-
-    
-    95%{
-        display:block ;
-        position:relative;
-        left: -150px;
-        width: 300px;
-        height: 300px;
-        bottom:100px;
-
-  
-    }
-    100%{
-        display:block ;
-        position:relative;
-        bottom:50px;
-         left: -150px;
-        height: 300px;
-        bottom:100px;
-        animation:move 4s linear;
-    }
-
-}
-
 
 
 @media screen and (max-width:700px){
