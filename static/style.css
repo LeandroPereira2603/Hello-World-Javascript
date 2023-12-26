@@ -79,6 +79,28 @@ h1{
    animation: text 3s linear;
    border-radius: 5px;
 }
+
+.text-seta{
+animation: moveSeta 1s infinite;
+padding-right: 10px;
+
+
+}
+
+
+
+@keyframes moveSeta{
+
+0%{
+    margin-right: 5px;
+}
+
+100%{
+    margin-right: 0px;
+}
+
+
+}
 .container-imagem{
     display: flex;
     justify-content: center;
@@ -156,6 +178,12 @@ h1{
         transition-duration: 0,5s;
         background-color: black;
         }
+
+      
+        .text-seta::before {
+            content: " ^^^ ";
+          }
+          
 
 
 
