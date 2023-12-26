@@ -99,13 +99,13 @@ h1{
         width: 80%;
         height: auto;
         color:white;
-        background-color: rgb(255, 254, 254);
+        background-color: rgb(240, 240, 12);
     }
     25%{
         width: 65%;
         height: auto;
         color:white;
-        background-color: rgb(202, 202, 42);
+        background-color: yellow;
     }
     50%{
         width: 50%;
@@ -118,7 +118,7 @@ h1{
         width: 45%;
         height: auto;
         color:white;
-        background-color: yellow;
+        background-color: rgb(240, 240, 12);
        
     }
 
