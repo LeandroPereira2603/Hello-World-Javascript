@@ -1,16 +1,10 @@
 
-
-body{
-    
-}
-
 .grid{
 display:grid;
 grid-template-columns: 1fr 1fr ;
 grid-template-areas:" left right "  ;
 background-color: black;
 }
-
 
 .grid-left{
     
@@ -45,8 +39,6 @@ code{
     padding: 2px;
     border-radius: 5px;
     font-style: italic;
-   
-
 
 }
 
@@ -83,7 +75,6 @@ h1{
 .text-seta{
 animation: moveSeta 1s infinite;
 padding-right: 10px;
-
 
 }
 
@@ -184,7 +175,4 @@ padding-right: 10px;
             content: " ^^^ ";
           }
           
-
-
-
 }
